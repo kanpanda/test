@@ -20,6 +20,8 @@ public class LoginControllerl {
 	@PostMapping("/login")
 	public void login(LoginForm form) {
 		System.out.println(form.toString());
+		System.out.println("test追加です");
+
 	}
 	
 }
